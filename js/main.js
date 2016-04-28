@@ -1,4 +1,4 @@
-/**
+﻿/**
  * Created by 浩 on 2016/4/28.
  */
 
@@ -37,7 +37,7 @@ m(function(){
 
         var model_index= m(this).parent().index();
         m('.diy_links').hide();
-        var links_index=m('.diy_links').eq(index(model_index));
+        var links_index=m('.diy_links').eq(model_index);
         links_index.show();
     })
 
