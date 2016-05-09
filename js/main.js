@@ -35,15 +35,6 @@ m(function(){
 
     //links弹出框
      m(".mange_links").click(function(){
-//         var links_cont_width=m('.links_cont').width();
-//         var links_cont_height=m('.links_cont').height();
-//
-//         var links_cont_left=(screen_width-links_cont_width)/2+'px';
-//         var links_cont_top=(screen_height-links_cont_height)/2+'px';
-//
-//         m(".links_cont").css("left",links_cont_left);
-//         m(".links_cont").css("top",links_cont_top);
-//
          m(".screen_shade").css("width",screen_width);
          m(".screen_shade").css("height",screen_height);
          m(".screen_shade").show();
