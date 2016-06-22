@@ -5,6 +5,8 @@
     <title>欢迎来到intlinks</title>
     <link type="text/css" rel="stylesheet" href="css/main.css">
     <link type="text/css" rel="stylesheet" href="css/animate.css">
+    <!--<link type="text/css" rel="stylesheet" href="css/jquery.gridly.css">-->
+    <!--<link type="text/css" rel="stylesheet" href="css/sample.css">-->
     <link rel="stylesheet" href="css/font-awesome-4.6.1/css/font-awesome.min.css">
     <link rel="icon" href="img/int.ico" type="image/x-icon"/>
 
@@ -60,6 +62,9 @@
                 <div class="sign_input">
                     <i class="fa fa-lock sign_icon fa-lg" aria-hidden="true"></i><input type="password" placeholder="确认密码" name="sign_in_password">
                 </div>
+                <div class="sign_input">
+                    <i class="fa fa-contao sign_icon fa-lg" aria-hidden="true"></i><input type="text" placeholder="验证码" name="sign_in_password">
+                </div>
 
                 <input value="注册" type="submit" class="int_button sign_submit">
             </form>
@@ -78,7 +83,7 @@
 
                 <a href="javascript:void 0" class="color_change signup"><i class="fa fa-user-plus fonticons"></i>注册</a>
                 <a href="javascript:void 0" class="color_change signin"><i class="fa fa-sign-in fonticons"></i>登录</a>
-                <a href="javascript:void 0" style="margin-right: 40px;" class="color_change ba_photo"><i class="fa fa-picture-o fonticons"></i>背景图</a>
+                <!--<a href="javascript:void 0" style="margin-right: 40px;" class="color_change ba_photo"><i class="fa fa-picture-o fonticons"></i>背景图</a>-->
                 <!--<a href="javascript:void 0"><i class="fa fa-sign-in fonticons"></i>欢迎，zhou594660747</a>-->
                 <!--<a href="javascript:void 0"><i class="fa fa-sign-in fonticons"></i>退出</a>-->
             </div>
@@ -119,13 +124,36 @@
                         </div>
                         <div>
                             <span>网站地址</span>&nbsp;&nbsp;
-                            <input type="text" placeholder="请输入网站地址" class="website">
+                            <input type="text" placeholder="请输入网站地址,格式为www.xxx.com" class="website">
 
                         </div>
                         <input type="submit" value="添加" class="int_button linktitlebutton">
 
                     </form>
                 </div>
+                <div class="model_tab">
+                    <ul>
+                        <li><a href="javascript:void 0" class="model_selt model">page 1</a> </li>
+                        <li><a href="javascript:void 0" class="model">page 2</a> </li>
+                        <li><a href="javascript:void 0" class="model">page 3</a> </li>
+                        <li><a href="javascript:void 0" class="model">page 4</a> </li>
+                    </ul>
+                </div>
+                <div class="diy_links edit_links_cont color_change">
+                    <ul>
+                        <li><a href="https://www.hao123.com/" onclick="return false" class="links edit_links">优秀网页设计<span class="edit_function"><i class="fa fa-pencil-square-o fonticons" aria-hidden="true"></i><i class="fa fa-times fonticons" aria-hidden="true"></i></span></a></li>
+                        <li><a href="javascript:void 0" target="_blank" class="links edit_links">UI中国<span class="edit_function"><i class="fa fa-pencil-square-o fonticons" aria-hidden="true"></i><i class="fa fa-times fonticons" aria-hidden="true"></i></span></a></li>
+                        <li><a href="javascript:void 0" target="_blank" class="links edit_links">站酷<span class="edit_function"><i class="fa fa-pencil-square-o fonticons" aria-hidden="true"></i><i class="fa fa-times fonticons" aria-hidden="true"></i></span></a></li>
+                        <li><a href="javascript:void 0" target="_blank" class="links edit_links">31<span class="edit_function"><i class="fa fa-pencil-square-o fonticons" aria-hidden="true"></i><i class="fa fa-times fonticons" aria-hidden="true"></i></span></a></li>
+                        <li><a href="javascript:void 0" target="_blank" class="links edit_links">12306<span class="edit_function"><i class="fa fa-pencil-square-o fonticons" aria-hidden="true"></i><i class="fa fa-times fonticons" aria-hidden="true"></i></span></a></li>
+                        <li><a href="javascript:void 0" target="_blank" class="links edit_links">12306<span class="edit_function"><i class="fa fa-pencil-square-o fonticons" aria-hidden="true"></i><i class="fa fa-times fonticons" aria-hidden="true"></i></span></a></li>
+                        <li><a href="javascript:void 0" target="_blank" class="links edit_links">231<span class="edit_function"><i class="fa fa-pencil-square-o fonticons" aria-hidden="true"></i><i class="fa fa-times fonticons" aria-hidden="true"></i></span></a></li>
+                        <li><a href="javascript:void 0" target="_blank" class="links edit_links">12306<span class="edit_function"><i class="fa fa-pencil-square-o fonticons" aria-hidden="true"></i><i class="fa fa-times fonticons" aria-hidden="true"></i></span></a></li>
+                        <li><a href="javascript:void 0" target="_blank" class="links edit_links">23<span class="edit_function"><i class="fa fa-pencil-square-o fonticons" aria-hidden="true"></i><i class="fa fa-times fonticons" aria-hidden="true"></i></span></a></li>
+                        <li><a href="javascript:void 0" target="_blank" class="links edit_links">12306<span class="edit_function"><i class="fa fa-pencil-square-o fonticons" aria-hidden="true"></i><i class="fa fa-times fonticons" aria-hidden="true"></i></span></a></li>
+                    </ul>
+                </div>
+
             </div>
             <div class="model_tab">
                 <ul>
@@ -211,6 +239,13 @@
     <!--<script type="text/javascript" src="js/jquery-2.1.1.js"></script>-->
     <script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
 
+
+    <script type="text/javascript"  charset="gbk" src="http://www.baidu.com/js/opensug.js"></script>
+    <script type="text/javascript" src="js/jquery.gridly.js"></script>
+    <!--<script type="text/javascript" src="js/rainbow.js"></script>-->
+    <!--<script type="text/javascript" src="js/sample.js"></script>-->
+    <script type="text/javascript" src="js/main.js"></script>
+
     <script type="text/javascript">
         function selectInputContent(serach_input){
             obj =document.getElementById(serach_input);
@@ -219,8 +254,7 @@
         }
 
     </script>
-    <script type="text/javascript" src="js/main.js"></script>
-    <script type="text/javascript"  charset="gbk" src="http://www.baidu.com/js/opensug.js"></script>
+
 
 
 

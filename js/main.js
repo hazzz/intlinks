@@ -105,7 +105,20 @@ m(function(){
         links_index.show();
     })
 
+//    点击links标签中的编辑按钮
+    m(".fa-pencil-square-o").click(function(){
+        var link_href=m(this).parent().parent().attr("href");
+        var link_name=m(this).parent().parent().text();
 
+        m(".webname").val(link_name);
+        m(".website").val(link_href);
 
+    })
+    //    点击links标签中的关闭按钮
+
+    m(".fa-times").click(function(){
+        m(this).parent().parent().hide();
+
+    })
 
 })
