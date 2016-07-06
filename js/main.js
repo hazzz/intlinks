@@ -114,10 +114,14 @@ m(function(){
         m(".website").val(link_href);
 
     })
-    //    点击links标签中的关闭按钮
 
+    //    点击links标签中的关闭按钮
     m(".fa-times").click(function(){
         m(this).parent().parent().hide();
+
+    })
+    m(".linktitlebutton").click(function(){
+            m(".edit_links_cont li:last").after('<li><a href="javascript:void 0" onclick="return false"  class="links edit_links">23<span class="edit_function"><i class="fa fa-pencil-square-o fonticons" aria-hidden="true"></i><i class="fa fa-times fonticons" aria-hidden="true"></i></span></a></li>');
 
     })
 
