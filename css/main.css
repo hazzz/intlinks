@@ -48,7 +48,7 @@ a:hover{text-decoration: underline;cursor: pointer;}
     -webkit-transition:-webkit-transform 1s ease;
     -moz-transition:-webkit-transform 1s ease;
     transition:-webkit-transform 1s ease;
-    width: 52px;height: 52px;background:url("../img/qietu.png") -533px -440px;position: absolute;}
+    width: 52px;height: 52px;background:url("../img/qietu.png") -100px -161px;position: absolute;}
 .close_popup:hover{cursor: pointer;
     -webkit-transform:rotate(360deg) scale(1);
     -moz-transform:rotate(360deg) scale(1);
@@ -56,14 +56,14 @@ a:hover{text-decoration: underline;cursor: pointer;}
     -webkit-transition:-webkit-transform 1s ease;
     -moz-transition:-webkit-transform 1s ease;
     transition:-webkit-transform 1s ease;}
-.close_signin{margin-left: 650px;margin-top:-410px;}
-.close_signup{margin-left: 650px;margin-top:-460px;}
+.close_signin{margin-left: 650px;margin-top:-365px;}
+.close_signup{margin-left: 650px;margin-top:-474px;}
 
 .header_cont{width: auto;height: 102px;border-bottom: 1px solid rgba(44,44,44,0.1);}
 .footer_cont{width: auto;height: 111px;border-top: 1px solid rgba(44,44,44,0.1);}
 .header,.main_cont,.footer,.about_cont,.intlink_nav,.tickling_cont{width: 1080px;margin:0 auto;}
 .header{padding-top: 15px;}
-.logo{width:140px;height: 70px;background: #383838;float: left;background:url('../img/qietu.png') -82px -40px;}
+.logo{width:140px;height: 70px;background: #383838;float: left;background:url('../img/qietu.png') -4px -3px}
 .login_sign{height: 85px;float: right;margin-right:50px;}
 .login_sign a{display: block;color:#383838;height: 85px;text-align:center;line-height: 68px;float: right;margin-right: 16px;font-size: 14px;}
 
@@ -83,8 +83,8 @@ a:hover{text-decoration: underline;cursor: pointer;}
 /*.news ul{margin-left: 10px;}*/
 .linkscont{height: 363px;overflow: hidden;margin-bottom: 20px;}
 .linkedit{width: 120px;position:absolute;margin-left:1042px;height: 100px;}
-.linkedit a{display: block;text-align:center;width:39px;height: 37px;margin-top: 15px;background: url("../img/qietu.png") -422px -264px;line-height:37px;color: #ffffff;font-size: 14px;}
-.linkedit a:hover{background: url("../img/qietu.png") -422px -113px;text-decoration: none;width:68px;text-align: left;padding-left:12px;}
+.linkedit a{display: block;text-align:center;width:39px;height: 37px;margin-top: 15px;background: url("../img/qietu.png") -405px -243px;line-height:37px;color: #ffffff;font-size: 14px;}
+.linkedit a:hover{background: url("../img/qietu.png") -388px -92px;text-decoration: none;width:68px;height:37px;text-align: left;padding-left:12px;}
 .function_describe{display: none;}
 
 .model_tab{width: 133px;height: 363px;background:#ffffff;
