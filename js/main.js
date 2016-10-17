@@ -67,6 +67,10 @@ m(function(){
         m(".screen_shade").hide();
     })
 
+    m(".closetitlebutton").click(function(){
+        m('.links_cont').hide();
+        m(".screen_shade").hide();
+    })
 
     //设置注册弹出框居中
     m(".signup").click(function(){

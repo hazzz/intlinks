@@ -4,7 +4,7 @@ ul{list-style: none}
 a{text-decoration: none}
 a:hover{text-decoration: underline;cursor: pointer;}
 
-.screen_shade{background:rgba(0,0,0,0.3);position:absolute;display:none;z-index:400;}
+.screen_shade{background:rgba(0,0,0,0.6);position:absolute;display:none;z-index:400;}
 .color_change:hover{color: #4baf50;}
 
 .linkedit:after{clear:both;content:'.';display:block;height:0;overflow:hidden;}
@@ -13,7 +13,8 @@ a:hover{text-decoration: underline;cursor: pointer;}
 .tickling_input{background: #f3f3f3;border:1px solid #f3f3f3;height:43px;}
 
 .top{width: 40px;height: 40px;background: #222222;position: absolute;color: #ffffff;margin-left:1050px;border-radius:4px;text-align:center;line-height:40px;margin-top: 300px;}
-.top:hover{background: #5f5f5f;cursor: pointer}
+.top:hover{background: #5f5f5f;
+    cursor: pointer;: pointer}
 
 .background_photo{width:auto;height: 230px;background: #ffffff;}
 .background_photo .photo_cont{width:1080px;height: 200px;margin: 0 auto;overflow: hidden;}
@@ -58,6 +59,7 @@ a:hover{text-decoration: underline;cursor: pointer;}
     transition:-webkit-transform 1s ease;}
 .close_signin{margin-left: 650px;margin-top:-365px;}
 .close_signup{margin-left: 650px;margin-top:-474px;}
+.close_addweb{margin-left: 1060px;z-index: 2000;}
 
 .header_cont{width: auto;height: 102px;border-bottom: 1px solid rgba(44,44,44,0.1);}
 .footer_cont{width: auto;height: 111px;border-top: 1px solid rgba(44,44,44,0.1);}
@@ -105,6 +107,7 @@ a:hover{text-decoration: underline;cursor: pointer;}
 .links_cont_title form div{float: left;margin-right: 20px;}
 .links_cont_title .net_mange{float: left;font-size: 18px;}
 .linktitlebutton{width:78px;height: 30px;}
+.closetitlebutton{width:100px;height: 30px;margin-left: 20px;background: #4baf50;border: 1px solid #4baf50;}
 .webname{width: 180px;height: 26px;border: 2px solid #3a3a3a;padding-left:6px;}
 .website{width: 290px;height: 26px;border: 2px solid #3a3a3a;padding-left:6px;}
 .links{width: 124px;height:38px;text-align: left;margin-right:2px;margin-top:2px;margin-left:2px;padding-left: 20px;float: left;line-height: 38px;color: #383838;}
