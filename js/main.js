@@ -8,8 +8,11 @@ var m = jQuery.noConflict();
 m(function(){
 
     //获取屏幕的高度和宽度
-    var screen_width=m(document).width();
-    var screen_height=m(document).height();
+    var screen_width=m(window).width();
+    var screen_height=m(window).height();
+
+    var document_width=m(document).width();
+    var document_height=m(document).height();
 
     //背景图展开收起
     m(".ba_photo").click(function(){
@@ -35,12 +38,20 @@ m(function(){
 
     //links弹出框
      m(".mange_links").click(function(){
-         m(".screen_shade").css("width",screen_width);
-         m(".screen_shade").css("height",screen_height);
+         m(".screen_shade").css("width",document_width);
+         m(".screen_shade").css("height",document_height);
          m(".screen_shade").show();
 
          m('.links_cont').show();
-    })	
+    })
+
+//鼠标管理时管理文字出现
+    m(".mange_links").hover(function(){
+        m('.function_describe').show();
+    },function(){
+        m(".function_describe").hide();
+    });
+
 
     //设置登录弹出框居中
     m(".signin").click(function(){
