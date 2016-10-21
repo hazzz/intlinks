@@ -33,7 +33,7 @@ m(function(){
 
     //置顶
     m('.top').click(function(){
-        m('html,body').animate({scrollTop:'0px'}, 800);
+        m('html,body').animate({scrollTop:'0px'}, 600);
     })
 
     //links弹出框
@@ -120,6 +120,17 @@ m(function(){
         links_index.show();
     })
 
+//   关于页面切换
+    m(".about_tab_cont a").click(function(){
+        m(".about_tab_cont a").removeClass('about_tab_select');
+        m(this).addClass('about_tab_select');
+
+//        var model_index= m(this).parent().index();
+//        m('.diy_links').hide();
+//        var links_index=m('.diy_links').eq(model_index);
+//        links_index.show();
+    })
+
 //    点击links标签中的编辑按钮
     m(".fa-pencil-square-o").click(function(){
         var link_href=m(this).parent().parent().attr("href");
@@ -137,7 +148,12 @@ m(function(){
     })
     m(".linktitlebutton").click(function(){
             m(".edit_links_cont li:last").after('<li><a href="javascript:void 0" onclick="return false"  class="links edit_links">23<span class="edit_function"><i class="fa fa-pencil-square-o fonticons" aria-hidden="true"></i><i class="fa fa-times fonticons" aria-hidden="true"></i></span></a></li>');
-
     })
+
+    window.onload=function(){
+        if(document_width<=1400){
+            m('.top').css('right','20px')
+        }
+    }
 
 })

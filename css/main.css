@@ -14,9 +14,9 @@ a:hover{text-decoration: underline;cursor: pointer;}
 .int_button:hover{background: #414141;border: 1px solid #414141;cursor: pointer;}
 .tickling_input{background: #f3f3f3;border:1px solid #f3f3f3;height:43px;}
 
-.top{width: 40px;height: 40px;background: #222222;position: fixed;color: #ffffff;right:200px;bottom:200px;border-radius:4px;text-align:center;line-height:40px;}
+.top{width: 40px;height: 40px;background: #222222;position: fixed;color: #ffffff;right:200px;bottom:180px;border-radius:4px;text-align:center;line-height:40px;}
 .top:hover{background: #5f5f5f;
-    cursor: pointer;: pointer}
+    cursor: pointer;}
 
 .background_photo{width:auto;height: 230px;background: #ffffff;}
 .background_photo .photo_cont{width:1080px;height: 200px;margin: 0 auto;overflow: hidden;}
@@ -66,7 +66,7 @@ a:hover{text-decoration: underline;cursor: pointer;}
 .close_addweb{margin-left: 1060px;z-index: 2000;}
 
 .header_cont{width: auto;height: 102px;border-bottom: 1px solid rgba(44,44,44,0.1);}
-.footer_cont{width: auto;border-top: 1px solid rgba(44,44,44,0.1);margin-top: 60px;}
+.footer_cont{width: auto;border-top: 1px solid rgba(44,44,44,0.1);margin-top: 40px;}
 .header,.main_cont,.footer,.about_cont,.intlink_nav,.tickling_cont{width: 1080px;margin:0 auto;}
 .header{padding-top: 15px;}
 .logo{width:140px;height: 70px;background: #383838;float: left;background:url('../img/qietu.png') -4px -3px}
@@ -154,6 +154,13 @@ a:hover{text-decoration: underline;cursor: pointer;}
 .message{line-height: 40px;color: #ffffff;float: left;}
 .close_message{width: 26px;height: 26px;background: url("../img/qietu.png") -117px -299px;margin-top:4px;float: right;}
 .close_message:hover{cursor: pointer;}
+
+.about_cont_detail{width: 1080px;overflow: hidden;height: 356px;}
+.about_tab_cont{float: left;background: #ffffff;width:100px;height: 318px;padding: 38px 0 0 0;}
+.about_right_cont{float: left;width:980px;}
+.about_tab{width:80px;text-align: center;display: block;text-align: center;padding: 10px;color: #222222;}
+.about_tab:hover{background: #7b7b7b;color: #ffffff;text-decoration: none;}
+.about_tab_select{background: #7b7b7b;color: #ffffff;}
 
 .footer p{margin: 0 auto;width: 800px;text-align: center;margin-top: 14px;color: #222222}
 .footer a {margin-right: 10px;color: #222222;}
