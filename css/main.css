@@ -155,8 +155,8 @@ a:hover{text-decoration: underline;cursor: pointer;}
 .close_message{width: 26px;height: 26px;background: url("../img/qietu.png") -117px -299px;margin-top:4px;float: right;}
 .close_message:hover{cursor: pointer;}
 
-.about_cont_detail{width: 1080px;overflow: hidden;height: 356px;}
-.about_tab_cont{float: left;background: #ffffff;width:100px;height: 318px;padding: 38px 0 0 0;}
+.about_cont_detail{width: 1080px;overflow: hidden;height: 456px;}
+.about_tab_cont{float: left;background: #ffffff;width:100px;height: 380px;}
 .about_right_cont{float: left;width:980px;}
 .about_tab{width:80px;text-align: center;display: block;text-align: center;padding: 10px;color: #222222;}
 .about_tab:hover{background: #7b7b7b;color: #ffffff;text-decoration: none;}

@@ -120,16 +120,18 @@ m(function(){
         links_index.show();
     })
 
-//   关于页面切换
+
+    //   关于页面切换
     m(".about_tab_cont a").click(function(){
         m(".about_tab_cont a").removeClass('about_tab_select');
         m(this).addClass('about_tab_select');
 
-//        var model_index= m(this).parent().index();
-//        m('.diy_links').hide();
-//        var links_index=m('.diy_links').eq(model_index);
-//        links_index.show();
+        var model_index= m(this).parent().index();
+        m('.about_detail').hide();
+        var links_index=m('.about_detail').eq(model_index);
+        links_index.show();
     })
+
 
 //    点击links标签中的编辑按钮
     m(".fa-pencil-square-o").click(function(){
@@ -156,4 +158,7 @@ m(function(){
         }
     }
 
+
+
 })
+
