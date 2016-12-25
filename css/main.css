@@ -69,7 +69,9 @@ a:hover{text-decoration: underline;cursor: pointer;}
 .footer_cont{width: auto;border-top: 1px solid rgba(44,44,44,0.1);margin-top: 40px;}
 .header,.main_cont,.footer,.about_cont,.intlink_nav,.tickling_cont{width: 1080px;margin:0 auto;}
 .header{padding-top: 15px;}
-.logo{width:140px;height: 70px;background: #383838;float: left;background:url('../img/qietu.png') -4px -3px}
+.logo{width:140px;height: 70px;background: #383838;float: left;
+    background:url('../img/qietu.png') -4px -3px
+}
 .login_sign{height: 85px;float: right;margin-right:50px;}
 .login_sign a{display: block;color:#383838;height: 85px;text-align:center;line-height: 68px;float: right;margin-right: 16px;font-size: 14px;}
 
@@ -149,9 +151,9 @@ a:hover{text-decoration: underline;cursor: pointer;}
 .comment_se{width: 1000px;background: #ffffff;padding:20px;}
 .comment_prompt{width: 1000px;background: #ffffff;padding:20px;margin-bottom: 10px;border: 1px solid #ffa024}
 
-.gonggao_wrap{width: auto;height:40px;background: #c0392b;}
+.gonggao_wrap{width: auto;height:40px;background: #f1efda;}
 .gonggao{width: 1080px;margin: 0 auto;}
-.message{line-height: 40px;color: #ffffff;float: left;}
+.message{line-height: 40px;color: #222222;float: left;}
 .close_message{width: 26px;height: 26px;background: url("../img/qietu.png") -117px -299px;margin-top:4px;float: right;}
 .close_message:hover{cursor: pointer;}
 
@@ -171,3 +173,6 @@ a:hover{text-decoration: underline;cursor: pointer;}
     /*background: url("../img/qietu.png") -246px -67px;*/
     /*padding-left:40px;*/}
 
+.fisrt_user{width:1040px;height:40px;background: #ffffff;margin-bottom: 20px;}
+.first_info_des{height: 40px;line-height: 40px;color: #222222;width: 900px;float: left;padding-left: 20px;}
+.close_first_info{float: right;margin-right: 20px;width: 40px;height: 40px;}
